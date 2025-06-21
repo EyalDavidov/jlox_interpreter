@@ -1,18 +1,30 @@
-## Getting Started
+# Lox Language Interpreter
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a personal implementation of the Lox programming language interpreter, based on the book [Crafting Interpreters](https://craftinginterpreters.com/) by Bob Nystrom. The goal of this project is to deepen my understanding of interpreters, language design, and Java — and to showcase it as part of my software development portfolio.
 
-## Folder Structure
+## 📚 About the Project
 
-The workspace contains two folders by default, where:
+Lox is a dynamically-typed, object-oriented language with syntax similar to JavaScript. This interpreter is written in **Java**, following the structure and guidance of the "Crafting Interpreters" book.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+The project includes:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- A scanner (lexer) that tokenizes source code.
+- A parser that builds an abstract syntax tree (AST).
+- An interpreter that executes the code.
+- Error handling and a basic REPL (interactive prompt).
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+This implementation is focused on the tree-walk interpreter approach.
 
-## Dependency Management
+## 🚀 Getting Started
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Prerequisites
+- Java 11 or higher
+- Git (for cloning the repo)
+- A terminal or IDE that supports Java
+
+### Clone and Run
+```bash
+git clone https://github.com/eyaldavidov/lox-interpreter.git
+cd lox-interpreter
+javac -d out src/com/craftinginterpreters/lox/*.java
+java -cp out com.craftinginterpreters.lox.Lox
