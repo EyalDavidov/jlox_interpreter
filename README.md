@@ -1,6 +1,7 @@
 # Lox Language Interpreter
 
-This is a personal implementation of the Lox programming language interpreter, based on the book [Crafting Interpreters](https://craftinginterpreters.com/) by Bob Nystrom. </br>
+This is a personal implementation of the Lox programming language interpreter, based on the book [Crafting Interpreters](https://craftinginterpreters.com/) by Bob Nystrom.
+
 **The goal of this project is to deepen my understanding of interpreters, language design, and Java - and to showcase it as part of my software development portfolio.**
 
 ## 📚 About the Project
